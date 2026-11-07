@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HANTY EDU | Plateforme scolaire</title>
+    <meta name="description" content="HANTY EDU, plateforme éducative pour les élèves du collège et du lycée.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- EN-TÊTE -->
+    <header>
+        <h1>HANTY <span>EDU</span></h1>
+        <p>Apprendre aujourd'hui, réussir demain.</p>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#cours">Cours</a>
+        <a href="#exercices">Exercices</a>
+        <a href="#examens">Examens</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- ACCUEIL -->
+    <main>
+
+        <section id="accueil" class="hero">
+            <h2>Bienvenue sur HANTY EDU</h2>
+
+            <p>
+                La plateforme éducative qui accompagne
+                les élèves du collège et du lycée.
+            </p>
+
+            <a href="#cours" class="btn">Découvrir les cours</a>
+        </section>
+
+        <!-- COURS -->
+        <section id="cours">
+            <h2>Nos matières</h2>
+
+            <div class="container">
+
+                <article class="card">
+                    <h3>Mathématiques</h3>
+                    <p>Algèbre, géométrie et calcul.</p>
+                    <a href="#contact">Voir les cours</a>
+                </article>
+
+                <article class="card">
+                    <h3>Physique-Chimie</h3>
+                    <p>Découvre les sciences physiques.</p>
+                    <a href="#contact">Voir les cours</a>
+                </article>
+
+                <article class="card">
+                    <h3>SVT</h3>
+                    <p>Sciences de la vie et de la terre.</p>
+                    <a href="#contact">Voir les cours</a>
+                </article>
+
+                <article class="card">
+                    <h3>Français</h3>
+                    <p>Grammaire et littérature.</p>
+                    <a href="#contact">Voir les cours</a>
+                </article>
+
+                <article class="card">
+                    <h3>Anglais</h3>
+                    <p>Apprendre la langue anglaise.</p>
+                    <a href="#contact">Voir les cours</a>
+                </article>
+
+                <article class="card">
+                    <h3>Histoire-Géographie</h3>
+                    <p>Découvrir le monde et son histoire.</p>
+                    <a href="#contact">Voir les cours</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- EXERCICES -->
+        <section id="exercices">
+            <h2>Exercices scolaires</h2>
+            <p>Entraîne-toi avec des exercices pour progresser.</p>
+            <button onclick="afficherMessage()">Commencer</button>
+        </section>
+
+        <!-- EXAMENS -->
+        <section id="examens">
+            <h2>Préparation aux examens</h2>
+
+            <div class="container">
+                <div class="card">
+                    <h3>BEPC</h3>
+                    <p>Prépare ton examen du collège.</p>
+                </div>
+
+                <div class="card">
+                    <h3>BAC</h3>
+                    <p>Prépare ton baccalauréat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Une question ? Écris-nous.</p>
+
+            <form id="contactForm">
+                <input type="text" placeholder="Ton nom" required>
+                <input type="email" placeholder="Ton adresse e-mail" required>
+                <textarea placeholder="Ton message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
+
+    <!-- PIED DE PAGE -->
+    <footer>
+        <h3>HANTY EDU</h3>
+        <p>Apprendre aujourd'hui, réussir demain.</p>
+        <p>© 2026 HANTY EDU. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
